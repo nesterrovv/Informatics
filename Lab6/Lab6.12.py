@@ -55,15 +55,14 @@ fileInn = open('fileIn.txt')
 fileIn = fileInn.read()
 fileInn.close()
 fileOut = open('FileOut.txt', 'a')
-'''
-compressed = compress(fileIn)
-for i in range(len(compressed)):
-    fileOut.write(compressed[i])
-print (compressed)
-decompressed = decompress(compressed)
-print (decompressed)
-'''
-compressed = compress(fileIn)
-fileOut.write(str(compressed))
-decompressed = decompress(compressed)
-fileOut.write(str(decompressed))
+
+try:
+    compressed = compress(fileIn)
+    fileOut.write(str(compressed))
+    decompressed = decompress(compressed)
+    fileOut.write(str(decompressed))
+    print('True')
+except:
+    print('False')
+finally:
+    print('Программа закончила работу')
