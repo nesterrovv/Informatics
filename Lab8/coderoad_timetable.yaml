@@ -1,0 +1,33 @@
+---
+timetable:
+  day: Thursday # Attribute
+  row:
+    week: all # Attribute
+    time:
+      start: 10:00 # Attribute
+      finish: 11:30 # Attribute
+    address:
+      building: Ломоносова_ул._9 # Attribute
+      room: 105 # Attribute
+    subject: Английский язык (практика)
+    teacher: Балабанова Анна Андреевна
+  row:
+    week: all # Attribute
+    time:
+      start: 11:40 # Attribute
+      finish: 13:10 # Attribute
+    address:
+      building: Ломоносова_ул._9 # Attribute
+      room: 105 # Attribute
+    subject: Дискретная математика (практика)
+    teacher: Проститенко Олег Владимирович
+  row:
+    week: all # Attribute
+    time:
+      start: 10:00 # Attribute
+      finish: 11:30 # Attribute
+    address:
+      building: Ломоносова_ул._9 # Attribute
+      room: 105 # Attribute
+    subject: Дискретная математика (практика)
+    teacher: Проститенко Олег Владимирович
