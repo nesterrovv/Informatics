@@ -1,0 +1,21 @@
+<!-- Просто комменатарий. Это расписание группы R3137.-->
+<timetable day="Wednesday">
+    <row week="all">
+        <time start="10:00" finish="11:30" />
+        <address building="Ломоносова ул. 9" room="3314" />
+        <subject>Английский (практика)</subject>
+        <teacher>Балабанова Анна Андереевна</teacher>
+    </row>
+    <row week="even">
+        <time start="11:40" finish="13:10" />
+        <address building="Ломоноова ул. 9" room="3314" />
+        <subject>Дискретная математика (практика)</subject>
+        <teacher>Проститенко Олег Владимирович</teacher>
+    </row>
+    <row week="even">
+        <time start="13:30" finish="15:00" />
+        <address building="Ломоноова ул. 9" room="3314" />
+        <subject>Дискретная математика (практика)</subject>
+        <teacher>Проститенко Олег Владимирович</teacher>
+    </row>
+</timetable>
