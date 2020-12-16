@@ -181,7 +181,7 @@ delay = time.time() - start_time # посчитать время
 print("%d cycles passed in %f s - %f s/operation" % (TESTS_LENGTH, delay, delay/TESTS_LENGTH)) # вывести с форматированием
 
 
-print("Test 2. Not my proram")
+print("Test 2. Not my program")
 start_time = time.time()
 for i in range(TESTS_LENGTH):
     with open(inFileName) as xmlf:
@@ -191,3 +191,12 @@ for i in range(TESTS_LENGTH):
         ofile.close()
 delay = time.time() - start_time # посчитать время
 print("%d cycles passed in %f s - %f s/operation" % (TESTS_LENGTH, delay, delay/TESTS_LENGTH)) # вывести с форматированием
+
+
+
+'''
+Для обозначения тегов я использую отдельный параметр объекта в yaml-разметке, чужой же код
+помещает все на один уровень. Разница в коде. В моем решении значения выделяются в кавычки, в чужом - нет.
+Кроме того, разная работа с комментариями. В моем они переносятся. А в чужом решении нет, там делаются новые
+для обозначения атрибутов. Все это порождает отраженную в выводе разницу в коде.
+'''
