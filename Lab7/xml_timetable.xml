@@ -1,39 +1,22 @@
 <!-- я - автоопределитель, разум в [INFORMATION AGENT DELETED 08.12.20] -->
 <timetable day="Thursday">
-    <row week="odd">
+    <row week="all">
         <time start="10:00" finish="11:30" />
-        <address building="Кронвергский_пр._49А" room="466" />
-        <subject>Философия (лекция)</subject>
-        <teacher>Погребняк Александр Анатольевич</teacher>
+        <address building="Ломоносова_ул._9" room="105" />
+        <subject>Английский язык (практика)</subject>
+        <teacher>Балабанова Анна Андреевна</teacher>
     </row>
-    <row week="even">
+    <row week="all">
         <time start="11:40" finish="13:10" />
-        <address building="Кронвергский_пр._49А" room="359" />
-        <subject>Философия (практика)</subject>
-        <teacher>Сюткин Антон Сергеевич</teacher>
+        <address building="Ломоносова_ул._9" room="105" />
+        <subject>Дискретная математика (практика)</subject>
+        <teacher>Проститенко Олег Владимирович</teacher>
     </row>
-    <row week="odd">
-        <time start="11:40" finish="13:10" />
-        <address building="Кронвергский_пр._49А" room="332" />
-        <subject>Введение в профессиональную деятельность (лекция)</subject>
-        <teacher>Капитонов Александр Александрович</teacher>
+    <row week="all">
+        <time start="10:00" finish="11:30" />
+        <address building="Ломоносова_ул._9" room="105" />
+        <subject>Дискретная математика (практика)</subject>
+        <teacher>Проститенко Олег Владимирович</teacher>
     </row>
-    <row week="even">
-        <time start="13:30" finish="15:00" />
-        <address building="Кронвергский_пр._49А" room="403" />
-        <subject>Дискретная математика (лекция)</subject>
-        <teacher>Халимон Виктория Ивановна</teacher>
-    </row>
-    <row week="odd">
-        <time start="15:20" finish="16:50" />
-        <address building="пер._Гривцова._14-16А" room="456" />
-        <subject>Введение в профессиональную деятельность (практика)</subject>
-        <teacher>Перегудин Алексей Алексеевич</teacher>
-    </row>
-    <row week="odd">
-        <time start="17:00" finish="18:30" />
-        <address building="пер._Гривцова._14-16А" room="456" />
-        <subject>Введение в профессиональную деятельность (практика)</subject>
-        <teacher>Перегудин Алексей Алексеевич</teacher>
-    </row>
+
 </timetable>
