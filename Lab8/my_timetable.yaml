@@ -1,0 +1,50 @@
+---
+ # я - автоопределитель, разум в [INFORMATION AGENT DELETED 08.12.20] 
+- timetable:
+  day: "Thursday"
+  childs:
+ - row:
+    week: "all"
+    childs:
+   - time:
+      start: "10:00"
+      finish: "11:30"
+   - address:
+      building: "Ломоносова_ул._9"
+      room: "105"
+   - subject:
+      childs:
+       "Английский язык (практика)"
+   - teacher:
+      childs:
+       "Балабанова Анна Андреевна"
+ - row:
+    week: "all"
+    childs:
+   - time:
+      start: "11:40"
+      finish: "13:10"
+   - address:
+      building: "Ломоносова_ул._9"
+      room: "105"
+   - subject:
+      childs:
+       "Дискретная математика (практика)"
+   - teacher:
+      childs:
+       "Проститенко Олег Владимирович"
+ - row:
+    week: "all"
+    childs:
+   - time:
+      start: "10:00"
+      finish: "11:30"
+   - address:
+      building: "Ломоносова_ул._9"
+      room: "105"
+   - subject:
+      childs:
+       "Дискретная математика (практика)"
+   - teacher:
+      childs:
+       "Проститенко Олег Владимирович"
